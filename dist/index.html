@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="../dist/main.js" defer></script>
+    <link rel="stylesheet" href="../dist/styles.css">
     <title>Battleship game</title>
 </head>
 <body>
@@ -11,7 +13,27 @@
     </header>
 
     <div id="content">
+        <div class="gameBoards">
+            <div>
+                <h2 id="player"></h2>
+            </div>
+            <div>
+                <h2>Player</h2>
+                <table id="player_board">
 
+                </table>
+            </div>
+            <div>
+                <h2>Computer</h2>
+                <table id="computer_board">
+
+                </table>
+            </div>
+        </div>
+
+        <div id="results">
+
+        </div>
     </div>
 
     <footer>
